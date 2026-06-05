@@ -1,0 +1,23 @@
+{
+  "name": "vscode-color-preview",
+  "displayName": "Color Preview",
+  "version": "1.0.0",
+  "description": "Color Preview \u2014 VS Code extension",
+  "publisher": "devkit",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-color-preview.hello",
+        "title": "Color Preview: Hello"
+      }
+    ]
+  }
+}
